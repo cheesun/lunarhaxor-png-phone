@@ -1,0 +1,112 @@
+{
+  "name": "lunarhaxor-png-phone",
+  "version": "0.0.0",
+  "dependencies": {
+    "espresso": {
+      "version": "1.4.3",
+      "from": "espresso@~1.4.3",
+      "dependencies": {
+        "mu": {
+          "version": "0.5.2",
+          "from": "mu@= 0.5.2"
+        },
+        "step": {
+          "version": "0.0.4",
+          "from": "step@= 0.0.4"
+        },
+        "sass": {
+          "version": "0.5.0",
+          "from": "sass@= 0.5.0"
+        },
+        "wwwdude": {
+          "version": "0.1.3",
+          "from": "https://github.com/4z3/node-wwwdude/tarball/0.1.4",
+          "resolved": "https://github.com/4z3/node-wwwdude/tarball/0.1.4"
+        }
+      }
+    },
+    "foreman": {
+      "version": "0.0.25",
+      "from": "foreman@",
+      "resolved": "https://registry.npmjs.org/foreman/-/foreman-0.0.25.tgz",
+      "dependencies": {
+        "colors": {
+          "version": "0.6.2",
+          "from": "colors@latest",
+          "resolved": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
+        },
+        "commander": {
+          "version": "2.0.0",
+          "from": "commander@latest",
+          "resolved": "https://registry.npmjs.org/commander/-/commander-2.0.0.tgz"
+        },
+        "mu2": {
+          "version": "0.5.20",
+          "from": "mu2@latest",
+          "resolved": "https://registry.npmjs.org/mu2/-/mu2-0.5.20.tgz"
+        },
+        "http-proxy": {
+          "version": "0.10.3",
+          "from": "http-proxy@latest",
+          "resolved": "https://registry.npmjs.org/http-proxy/-/http-proxy-0.10.3.tgz",
+          "dependencies": {
+            "optimist": {
+              "version": "0.3.7",
+              "from": "optimist@0.3.x",
+              "resolved": "https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz",
+              "dependencies": {
+                "wordwrap": {
+                  "version": "0.0.2",
+                  "from": "wordwrap@~0.0.2",
+                  "resolved": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
+                }
+              }
+            },
+            "pkginfo": {
+              "version": "0.2.3",
+              "from": "pkginfo@0.2.x",
+              "resolved": "https://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz"
+            },
+            "utile": {
+              "version": "0.1.7",
+              "from": "utile@~0.1.7",
+              "resolved": "https://registry.npmjs.org/utile/-/utile-0.1.7.tgz",
+              "dependencies": {
+                "async": {
+                  "version": "0.1.22",
+                  "from": "async@0.1.x",
+                  "resolved": "https://registry.npmjs.org/async/-/async-0.1.22.tgz"
+                },
+                "deep-equal": {
+                  "version": "0.1.0",
+                  "from": "deep-equal@*",
+                  "resolved": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.1.0.tgz"
+                },
+                "i": {
+                  "version": "0.3.2",
+                  "from": "i@0.3.x",
+                  "resolved": "https://registry.npmjs.org/i/-/i-0.3.2.tgz"
+                },
+                "mkdirp": {
+                  "version": "0.3.5",
+                  "from": "mkdirp@0.x.x",
+                  "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+                },
+                "ncp": {
+                  "version": "0.2.7",
+                  "from": "ncp@0.2.x",
+                  "resolved": "https://registry.npmjs.org/ncp/-/ncp-0.2.7.tgz"
+                },
+                "rimraf": {
+                  "version": "1.0.9",
+                  "from": "rimraf@1.x.x",
+                  "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-1.0.9.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
